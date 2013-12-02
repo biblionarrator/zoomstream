@@ -1,0 +1,32 @@
+{
+  "name": "zoomstream",
+  "version": "0.0.1",
+  "author": "Jared Camins-Esakov <jcamins@cpbibliography.com>",
+  "description": "Node.js-ish wrapper for node-zoom",
+  "contributors": [
+    {
+      "name": "Jared Camins-Esakov",
+      "email": "jcamins@cpbibliography.com"
+    }
+  ],
+  "bin": {},
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --reporter=spec test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biblionarrator/zoomjs.git"
+  },
+  "keywords": [],
+  "dependencies": {
+    "node-zoom": "~0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "bundledDependencies": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
