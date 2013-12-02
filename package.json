@@ -10,6 +10,7 @@
     }
   ],
   "bin": {},
+  "main": "lib/zoomstream",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha --reporter=spec test/*.js"
   },
